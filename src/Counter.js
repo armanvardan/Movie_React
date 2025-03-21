@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Counter(props) {
-    const [counter, setCounter] = useState(parseInt(props.defaultValue));
+    const [counter, setCounter] = useState(props.defaultValue);
 
     const handleChange = (change) => {
         setCounter(counter + change);

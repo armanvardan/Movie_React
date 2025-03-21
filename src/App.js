@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Counter defaultValue="10"></Counter>
+      <Counter defaultValue={10}></Counter>
       <SearchForm defaultValue='arman' onSearch={search}></SearchForm>
       
       <GenreSelect
