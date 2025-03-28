@@ -1,8 +1,10 @@
-import './App.css';
-import React, { useState } from 'react';
+import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import Counter from './Counter';
 import SearchForm from './SearchForm';
 import GenreSelect from './GenreSelect';
+import './App.css'
 
 function App() {
   
@@ -32,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
